@@ -10,11 +10,11 @@ const rollDice = () => {
 
 const winner = (player1, player2) => {
   if (player1 > player2) {
-    document.querySelector("h1").innerHTML ="PLAYER 1 WINS!";
+    document.querySelector("h1").innerHTML = "PLAYER 1 WINS!";
   } else if (player1 < player2) {
-    document.querySelector("h1").innerHTML ="PLAYER 2 WINS!";
+    document.querySelector("h1").innerHTML = "PLAYER 2 WINS!";
   } else {
-    document.querySelector("h1").innerHTML ="IT'S A TIE!";
+    document.querySelector("h1").innerHTML = "IT'S A TIE!";
   }
 }
 

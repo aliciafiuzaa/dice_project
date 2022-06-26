@@ -17,7 +17,6 @@ body {
 h1 {
   margin: 30px;
   font-family: 'Nova Mono', monospace;
-  /* text-shadow: 5px 0 #2f343b; */
   font-size: 100px;
   color: #f0f0f0;
 }
@@ -37,6 +36,7 @@ footer {
   text-align: center;
   font-family: 'Nova Mono', monospace;
 }
+
 a {
   text-decoration: none;
   color: #104943;
